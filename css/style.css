@@ -91,15 +91,47 @@ li {
     width: 100%;
     height: 100vh;
   }
+/* ============================================ 
+             FOI ADICIONADO
+ ============================================ */
+    #preloader .preloader-circle:before,
+    #preloader .preloader-circle:after {
+        content: "";
+        position: absolute;
+        border: 4px solid var(--hov);
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        animation: animate-preloader 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
 
-  #preloader img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100px; /* ajuste o tamanho conforme necessário */
-      height: auto;
-  }
+    #preloader .preloader-circle:after {
+        animation-delay: -0.5s;
+    }
+
+    #preloader img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px; /* ajuste o tamanho conforme necessário */
+        height: auto;
+    }
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* ============================================ 
+             FOI ADICIONADO
+ ============================================ */
   
   #preloader:before,
   #preloader:after {
