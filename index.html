@@ -377,6 +377,50 @@
          </div>
      </div>
  </div>
+                        <br />
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="about-video">
+                        <a href="#" onclick="downloadImage('images/calendario.png')">
+                            <img src="images/calendario.png" class="img-fluid w-100" alt="Calendário">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                    <div class="about-text">
+                        <h2>Calendário 12 Travessias 2024</h2>
+                        <img src="images/shape.png" alt="">
+                        <p>
+                            12 Travessias é o nosso calendário anual de travessias e eventos. A cada mês, organizamos uma travessia única, com diferentes graus de dificuldade e instruções sobre como participar.<span>
+                            No mês de cada travessia, começamos a mobilização do evento, compartilhando detalhes no nosso Instagram e criando um grupo específico no WhatsApp. Participar é fácil: basta acompanhar as atualizações em nosso grupo de eventos no WhatsApp ou no Instagram.<span>
+                            As datas do calendário estão sujeitas a alterações sem aviso prévio, geralmente devido a condições climáticas ou à disponibilidade dos organizadores. No entanto, sempre informamos qualquer mudança assim que o evento é lançado.</span>
+</p>
+                        <div class="col-lg-6 order-2 order-lg-1">
+                            <div class="about-video">
+                                <div class="overly">
+                                    <button class="btn btn-primary mt-3" onclick="downloadImage()">Baixar o Calendário</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function downloadImage() {
+                                const url = 'images/calendario.png';
+                                const a = document.createElement('a');
+                                a.href = url;
+                                a.download = 'calendario.png';
+                                document.body.appendChild(a);
+                                a.click();
+                                document.body.removeChild(a);
+                            }
+                        </script>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- =========================================================
