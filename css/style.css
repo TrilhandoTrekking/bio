@@ -1619,7 +1619,7 @@ h6 {
     border-right: 3px solid #e23e38;
     border-top: 3px solid #fff;
     border-bottom: 3px solid #fff;
-    background: green; /* Ajuste para a cor verde */
+    background: green !important; /* Garante o fundo verde */
 }
 
 .btn-spotify:hover {
