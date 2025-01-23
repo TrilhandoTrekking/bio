@@ -1604,7 +1604,7 @@ h6 {
 .banner-text a.btn-spotify {
     background-color: green !important; /* Garante o fundo verde */
     color: white;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
