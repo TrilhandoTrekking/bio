@@ -1601,6 +1601,20 @@ h6 {
     background: #4285f4;
 }
 
+.btn-spotify {
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Formato de botão */
+}
+
+.btn-spotify:hover {
+    background-color: darkgreen; /* Fundo ao passar o mouse */
+}
+
+
 /* ============================================ 
               Modal1 part end
  ============================================ */
