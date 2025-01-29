@@ -1575,30 +1575,10 @@
             window.open(whatsappGroupLink, '_blank');
         }
 
-      
-
-
       function openWhatsAppGroupPrincipal() {
-         const whatsappGroupLink = "https://chat.whatsapp.com/FMm8CAYr6m165LlZR2weE5"; // Link do grupo
-         const message = "Olá! Entrei no grupo pelo link na bio do Instagram do Trilhando."; // Mensagem que será pré-preenchida
-
-        // Codifica a mensagem para ser compatível com a URL
-        const encodedMessage = encodeURIComponent(message);
-
-        // URL do WhatsApp para enviar mensagem automaticamente
-        const whatsappURL = `https://api.whatsapp.com/send?text=${encodedMessage}`;
-
-        // Abre a URL do WhatsApp
-        window.open(whatsappURL, '_blank');
-
-        // Depois de abrir a mensagem, pode direcionar para o grupo
-        setTimeout(() => {
-        window.open(whatsappGroupLink, '_blank');
-        }, 2000); // Aguarda 2 segundos antes de abrir o grupo
-       }
-
-
-      
+            const whatsappGroupLink = "https://chat.whatsapp.com/FMm8CAYr6m165LlZR2weE5"; // Substitua pelo link do seu grupo
+            window.open(whatsappGroupLink, '_blank');
+        }      
 
        function openSpotify() {
             const SpotifyLink = "https://open.spotify.com/artist/48A9PP5pOtmUgUCuIg2LCr"; // Substitua pelo link do seu grupo
